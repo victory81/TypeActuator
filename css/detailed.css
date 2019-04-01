@@ -1,0 +1,415 @@
+html,body{
+    font-family: PF-Medium !important;
+}
+
+.box {
+    background: #273e4a;
+    overflow: hidden;
+}
+
+.boy {
+    width: 100%;
+    height: 100%;
+    background: url("../images/detailed/toubu.png")no-repeat;
+    background-size: 100% 50%;
+    overflow: hidden;
+}
+
+.boy span {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.con {
+    display: inline-block;
+    font-size: .2rem;
+    color: #fff;
+    margin-left: 1.3rem;
+    margin-top: .34rem;
+}
+
+.iconfan img {
+    width: 0.1rem;
+    height: 0.15rem;
+    margin-top: .34rem;
+    margin-left: .15rem;
+}
+
+.icongen img {
+    width: 0.06rem;
+    height: 0.2rem;
+    margin-top: .34rem;
+    margin-right: .15rem;
+}
+
+.iconfan {
+    float: left;
+}
+
+.icongen {
+    float: right;
+}
+
+.li_ul {
+    margin-top: 4.6rem;
+}
+
+.li_ul a {
+    color: #fff;
+}
+
+.li_ul li:nth-child(1) {
+    text-align: center;
+    font-size: .21rem;
+    margin-bottom: .08rem;
+}
+
+#new {
+    color: #767c7f;
+}
+
+.li_ul li:nth-child(2) {
+    text-align: center;
+    font-size: .12rem;
+    margin-bottom: .18rem;
+    /* background: url("../images/detailed/shoe.png")no-repeat; */
+    /* background: 100% 100%； */
+}
+
+.shoe img {
+    width: 0.15rem;
+    height: 0.15rem;
+
+}
+
+.shoe span {
+    color: #fff;
+    font-family: PF-Bold;
+}
+
+.dun {
+    font-family: PF-Medium;
+    font-size: .12rem;
+}
+
+.dun img {
+    width: 0.12rem;
+    height: 0.15rem;
+    margin-right: .05rem;
+}
+
+.dun span:nth-child(2) {
+    margin-bottom: .02rem;
+    color: #cccccc;
+    margin-right: .1rem;
+}
+
+.dun span:nth-child(4) {
+    margin-bottom: .02rem;
+    color: #cccccc;
+}
+
+#fff {
+    color: #cccccc;
+    font-size: .12rem;
+    font-family: PF-Medium;
+}
+
+.li_ul li:nth-child(3) {
+    text-align: center;
+    margin-bottom: .06rem;
+}
+
+.li_ul li:nth-child(4) {
+    text-align: center;
+}
+
+.li_ull li span {
+    color: #fff;
+    font-size: 0.14rem;
+}
+
+.li_ull li p {
+    color: #cccccc;
+    margin-left: .02rem;
+    font-size: .12rem;
+    font-family: PF-Medium;
+}
+
+.li_ull li {
+    float: left;
+}
+
+.li_ull li a img {
+    width: .2rem;
+    height: 0.2rem;
+    margin-left: .1rem;
+    margin-top: .1rem;
+}
+
+.li_ull {
+    overflow: hidden;
+    float: right;
+    margin-top: .29rem;
+}
+
+.li_ull li:nth-child(1) {
+    margin-right: .85rem;
+}
+
+.li_ull li:nth-child(2) {
+    margin-right: .85rem;
+}
+
+.li_ull li:nth-child(3) {
+    margin-right: .5rem;
+}
+
+.div_img {
+    margin-top: 1.2rem;
+}
+
+.wei {
+    margin-top: 1rem;
+    font-size: .12rem;
+}
+
+.wei img {
+    width: 0.11rem;
+    height: 0.15rem;
+    margin-left: .15rem;
+}
+
+.wei span {
+    color: #fff;
+    font-family: PF-Medium;
+}
+
+.sp_s {
+    font-size: .13rem;
+    color: #fff;
+    margin-top: .27rem;
+    margin-left: .15rem;
+    font-family: PF-Medium;
+    margin-bottom: .15rem;
+}
+
+.img_ul img {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: .06rem;
+    margin-bottom: .15rem;
+    margin-left: .15rem;
+}
+
+.list_div {
+    overflow: hidden;
+    margin-bottom: .3rem;
+}
+
+.list_div ul:nth-child(1) {
+    float: left;
+}
+
+.list_div ul:nth-child(2) {
+    float: left;
+}
+
+.list_div ul:nth-child(3) {
+    float: right;
+    margin-right: .15rem;
+}
+
+.ist {
+    font-family: PF-Medium;
+    margin-left: .15rem;
+    font-size: .15rem;
+}
+
+.ist span {
+    color: #fff;
+}
+
+.ist li:nth-child(1) {
+    color: #fff;
+    margin-bottom: .2rem;
+}
+
+.ist li:nth-child(2) {
+    color: #f76585;
+    margin-bottom: .1rem;
+}
+
+.ist li:nth-child(3) {
+    color: #fff;
+    margin-bottom: .2rem;
+}
+
+.ist li:nth-child(4) {
+    color: #f76585;
+    margin-bottom: .1rem;
+}
+
+.ist li:nth-child(5) {
+    color: #fff;
+    margin-bottom: .2rem;
+}
+
+.ist li:nth-child(6) {
+    color: #f76585;
+}
+
+.st li a {
+    color: #9a9999;
+    font-size: .09rem;
+    font-family: PF-Medium;
+}
+
+.st img {
+    width: 0.45rem;
+    height: 0.45rem;
+}
+
+.st {
+    margin-right: .15rem;
+    font-size: .11rem;
+}
+
+.st li:nth-child(1) {
+    margin-bottom: .65rem;
+}
+
+.st li:nth-child(2) {
+    margin-bottom: .65rem;
+}
+
+.st li:nth-child(3) {
+    margin-bottom: .21rem;
+}
+#kefu{
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+
+}
+.lax img {
+    width: 0.12rem;
+    height: 0.06rem;
+    margin-left: .13rem;
+    margin-bottom: .03rem;
+}
+
+.lax span {
+    color: #f6f6f6;
+    font-size: .14rem;
+    font-family: PF-Medium;
+    /* font-family: SSFT-Thin; */
+}
+
+.lax {
+    text-align: center;
+    display: inline-block;
+    margin-left: 1.3rem;
+    font-size: .15rem;
+
+}
+.t_ul {
+    overflow: hidden;
+    margin-bottom: .65rem;
+}
+
+.t_ul ul li {
+    float: left;
+}
+
+
+.t_ul ul {
+    overflow: hidden;
+    font-family: PF-Medium;
+    color: #fff;
+    font-size: .15rem;
+}
+
+.t_ul ul li img {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: .15rem;
+    margin-right: .15rem;
+}
+
+.t_ul ul li:nth-child(2) {
+    margin-left: .15rem;
+    margin-top: .05rem;
+
+}
+
+#li_x {
+    font-size: .11rem;
+    float: right;
+    margin-right: .15rem;
+    color: #f6f6f6;
+}
+
+.rig {
+    float: right;
+}
+
+.bot {
+    margin-top: .15rem;
+    font-size: .15rem;
+}
+
+.t_ul ul li:nth-child(3) {
+    color: #fff;
+    margin-top: -.2rem;
+}
+.foot {
+    margin: 0 0;
+    position: fixed;;
+    bottom: 0;
+    background: #273e4a;
+}
+
+.foot ul {
+    overflow: hidden;
+}
+
+.foot ul li {
+    float: left;
+}
+
+.aix img {
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-top: .17rem;
+    margin-left: .37rem;
+}
+
+.foot ul li:nth-child(2) {
+    margin-left: .52rem;
+    margin-top: .15rem;
+    font-size: .12rem;
+    font-family: PF-Medium;
+}
+
+
+.foot ul li:nth-child(3) {
+    background: url("../images/detailed/juxing.png")no-repeat;
+    background-size: 100%;
+    margin-left: .36rem;
+    width: 1.83rem;
+    height: 0.5rem;
+    text-align: center;
+    line-height: .5rem;
+    font-size: .14rem;
+    font-family: PF-Medium;
+}
+
+.lis {
+    color: #fff;
+}
+
+.re {
+    color: #f66784;
+    font-family: PF-Medium;
+}

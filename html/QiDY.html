@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>启动页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <style>
+    .swiper-slide,.swiper-wrapper,.swiper-container,html,body{
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide>img:nth-child(1){
+        width: 100%;
+        height: 100%;
+    }
+    .btn_box{
+        position: relative;
+    }
+    .btn{
+        width: 1.3rem;
+        height: 0.5rem;
+        position: absolute;
+        bottom: .7rem;
+        left: 50%;
+        /* margin-left: -50%; */
+        transform: translateX(-50%)
+    }
+    </style>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../images/qidongye/tupian3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../images/qidongye/tupian2.png" alt="">
+            </div>
+            <div class="swiper-slide btn_box">
+                <img src="../images/qidongye/tupian1.png" alt="">
+                <img class="btn" src="../images/qidongye/anniu.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/remstyle.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          loop: true, 
+        });
+
+        $('.btn').on('touchstart',function(){
+            window.location.href = "./login.html";
+        })
+    </script>
+</body>
+</html>

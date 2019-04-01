@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+.clear>a {
+    position: absolute;
+    top: .66rem;
+    left: .3rem;
+    font-size: .26rem;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+.top_title {
+    text-align: center;
+    font-size: .36rem;
+    margin-top: .66rem;
+}
+
+.logo {
+    width: 1.14rem;
+    height: 1.11rem;
+    margin-top: 1.4rem;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.p1_box {
+    padding: 0 .6rem;
+}
+
+.P1 {
+    margin-top: .44rem;
+    margin-bottom: .57rem;
+    text-align: center;
+    font-size: .36rem;
+    border-bottom: 1px #ccc solid;
+}
+
+.p2 {
+    font-size: .32rem;
+    margin-top: .6rem;
+    text-align: center;
+}
+
+.p3 {
+    font-size: .28rem;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin-top: .45rem;
+}
+
+.btn {
+    margin-top: 1.25rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: .36rem;
+    width: 6.15rem;
+    background: url("./../images/impower/yuanjiao.png");
+    background-size: 6.15rem 1rem;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.btn>a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,230 @@
+*{margin: 0;padding: 0;}
+body{
+    background: #27414e;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 1rem;
+    border: .01rem solid #3a515f;
+    overflow: hidden;
+    background: #27414e;
+    position:fixed;
+    top: 0;
+    z-index: 100;
+}
+header>span{
+    display: block;
+    text-align: center;
+    /* line-height: .8rem; */
+}
+header>a:first-child{
+    width: .4rem;
+    height: .6rem;
+    float: left;
+    margin-left: .1rem;
+    background: url(../images/cloth/back.png) no-repeat center;
+    background-size: 50% auto;
+}
+header>span:nth-child(2){
+    display: block;
+    color: #fff;
+    float: left;
+    font-family: PF-Medium;
+    font-size: .18rem;
+    line-height: .6rem;
+    margin-left: 1.1rem;
+}
+header>span:nth-child(3){
+    width: .4rem;
+    height: .6rem;
+    float: right;
+    margin-right: .1rem;
+    background: url(../images/quan/iconsousuo.png) no-repeat center;
+    background-size: 50% auto;
+}
+
+.nav{
+    overflow: hidden;
+    width: 100%;
+    margin-top: .01rem;
+}
+
+/* 切换效果 */
+.nav li{
+    float: left;
+    width: 25%;
+}
+.liang{
+    background: url("../images/quan/icondianliang.png")
+    no-repeat .3rem .25rem;
+    background-size:  35% 10%;
+}
+.nav li span{
+    float: left;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: .15rem;
+    font-family: PF-Medium;
+    color: #f6f6f6;
+    padding-bottom: .2rem;
+}
+.nav li:last-child span{
+    background: url("../images/cloth/sanjiaojian.png")
+    no-repeat .65rem .04rem;
+    background-size: 10% 40%;
+}
+main{
+    margin-top: 1.04rem;
+}
+main ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    justify-content: space-around;
+    transform: translate(.07rem,.05rem);
+}
+main ul li:nth-child(2),
+main ul li:nth-child(3){
+    margin: 0 .1rem;
+    text-align: left;
+    padding-left: .15rem;
+}
+main ul li:nth-child(2) a{
+    display: inline-block;
+    padding-right: .35rem;
+    background: url("../images/cloth/xiangxia.png")
+    no-repeat .65rem center;
+    background-size: 15% 20%;
+}
+main ul li:nth-child(3) a{
+    display: inline-block;
+    padding-right: .45rem;
+    background: url("../images/cloth/xiangxia.png")
+    no-repeat .65rem center;
+    background-size: 15% 20%;
+}
+/*  */
+main ul li a{
+    color: #fff;
+}
+main ul li{
+    justify-content: space-around;
+    width: 2.1rem;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .15rem;
+    font-family: PF-Medium;
+    color: #fff;
+    font-family: PF-Medium;
+    text-align: center;
+    background-color: #324654;
+    border-radius: .1rem;
+}
+
+.foot{
+    float: left;
+    width: 1.65rem;
+    height: 2.3rem;
+    border-radius: .05rem;
+    background: #334554;
+    overflow: hidden;
+    margin-left: .15rem;
+    margin-top: .1rem;
+}
+
+footer ul{
+    width: 100%;
+    overflow: hidden;
+}
+footer ul li:nth-child(1) a{
+    /* background: url("../images/cloth/tupian1.png")
+    no-repeat -.1rem -.4rem;
+    background-size: 130% 230%; */
+    background: url("../images/cloth/tuyi.png")
+    no-repeat 0px 0px;
+    background-size: 100% 100%;
+}
+footer ul li:nth-child(2) a{
+    background: url("../images/cloth/tupian2.png")
+    no-repeat -.18rem -0.15rem;
+    background-size: 112% 160%;
+}
+footer ul li:nth-child(3) a{
+    background: url("../images/cloth/tupian4.png")
+    no-repeat -.05rem -.1rem;
+    background-size: 106% 146%;
+}
+footer ul li:nth-child(4) a{
+    background: url("../images/cloth/tupian3.png")
+    no-repeat -.08rem -.07rem;
+    background-size: 105% 135%;
+}
+.foot>a{
+    display: inline-block;
+    width: 1.65rem;
+    height: 1.55rem;
+    overflow: hidden;
+    border-radius: .05rem;
+}
+.foot p:nth-child(2){
+    color: #fff;
+    font-size: .15rem;
+    font-family: PF-Medium;
+    margin-left: .15rem;
+    /* margin-top: -.2rem; */
+}
+.foot p:nth-child(3){
+    color: #ccc;
+    font-size: .16rem;
+    font-family: PF-Medium;
+    margin-left: .15rem;
+}
+.foot p:nth-child(3) span{
+    color: #f86486;
+    font-size: .22rem;
+    font-family: PF-Medium;
+}
+.foot p:nth-child(4){
+    color: #ccc;
+    font-size: .12rem;
+    margin-left: .15rem;
+    font-family: PF-Medium;
+}
+.foot span:nth-child(5){
+    float: right;
+    width: .4rem;
+    height: .4rem;
+    margin-top: -.3rem;
+    background: url("../images//cloth/gouwubao.png")
+    no-repeat 0px 0px;
+    background-size: 50% 50%;
+}
+footer{
+    margin-bottom: .4rem;
+    /* border-bottom: .01rem solid #ccc; */
+}
+.car{
+    /* margin-top: 1rem; */
+    width: .5rem;
+    height: .5rem;
+    background: url("../images//cloth/gouwuche.png")
+    no-repeat 0 0; 
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: .05rem;
+    z-index: 100;
+    right: .05rem;
+}
+.car span{
+    position: absolute;
+    left: .3rem;
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background: url("../images//cloth/icon2.png")
+    no-repeat 0 0; 
+    background-size: 100% 100%;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>你的性别是？</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/gender.css">
+</head>
+
+<body>
+    <div class="gender_bg gender_bg1">
+        <div class="gender_p">
+           <a href="./index.html"><p>全部跳过</p></a> 
+        </div>
+        <div class="gender_p2">
+            <p>你的性别是？</p>
+        </div>
+        <div class="use1">
+            <img class="women1" src="../images/info/women1.png" alt="">
+            <img class="women2 hide" src="../images/info/women2.png" alt="">
+        </div>
+        <div class="use2">
+            <img class="man1" src="../images/info/man1.png" alt="">
+            <img class="man2 hide" src="../images/info/man2.png" alt="">
+        </div>
+        <a href="./user_name.html">
+            <div class="gender_btn">
+                <img src="../images/info/0.png" alt="">
+            </div>
+        </a>
+
+
+
+    </div>
+
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/remstyle.js"></script>
+    <script>
+        $('.women1').on('touchstart', function () {
+            $(this).hide().siblings().show();
+            $('.man2').hide().siblings().show();
+            $('.gender_bg').removeClass('gender_bg2').addClass('gender_bg1');
+        })
+        $('.women2').on('touchstart', function () {
+            $(this).hide().siblings().show();
+            $('.gender_bg').removeClass('gender_bg2').addClass('gender_bg1');
+        })
+
+
+        $('.man1').on('touchstart', function () {
+            $(this).hide().siblings().show();
+            $('.women2').hide().siblings().show();
+            $('.gender_bg').removeClass('gender_bg1').addClass('gender_bg2  ');
+        })
+        $('.man2').on('touchstart', function () {
+            $(this).hide().siblings().show();
+            $('.gender_bg').removeClass('gender_bg2').addClass('gender_bg1');
+        })
+
+    </script>
+</body>
+
+</html>

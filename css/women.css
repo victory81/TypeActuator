@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38,48,58);
+}
+.banner img{
+    width: 100%;
+    height: 2.3rem;
+}
+.con{
+    width: 100%;
+    height: 2.76rem;
+    border-bottom: .01rem solid rgb(58, 81, 95);
+}
+.con .main{
+    width: 92.8%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+.con .main .money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .15rem;
+    font-family: number;
+}
+.con .main .money span{
+    color: rgb(8, 220, 184);
+}
+.con .main .money .num{
+    font-size: .3rem;
+    color: rgb(8, 220, 184);
+}
+.con .main .money .price{
+    color:#fff;
+    font-size: .1rem;
+    padding-top: .26rem;
+    background: url(./../images/women/iconqipao.png) no-repeat .1rem 0rem;
+    background-size: 50%;
+}
+.con .main .info{
+    color: #fff;
+    font-size: .18rem;
+    font-family: number;
+}
+.con .main .info span{
+    margin-right: 0.04rem;
+}
+.list{
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.list li{
+    height: .4rem;
+    line-height: 0.4rem;  
+}
+
+.list li:nth-child(2n+1){
+    font-size: .13rem;
+    color: #fff;
+    text-indent: .5rem;
+}
+.list li:nth-child(2n){
+    font-size: .12rem;
+    color: #fff;
+    font-family: number;
+}
+.list li:nth-child(1){
+    background: url(./../images/women/iconlihe.png) no-repeat 1px 1px;
+    background-size: 8%;
+}
+.list li:nth-child(3){
+    background: url(./../images/women/icondunpai.png) no-repeat 1px 1px;
+    background-size: 8%;
+}
+.list li:nth-child(5){
+    background: url(./../images/women/iconwendang.png) no-repeat 1px 1px;
+    background-size: 8%;
+}
+.list li:nth-child(4) span{
+    margin-right: 0.04rem;
+}
+.list li:nth-child(5){
+    overflow: hidden;
+}
+.list li:nth-child(5) span{
+    float: right;
+    padding-right: .3rem;
+    background: url(./../images/women/iconfanhui1.png) no-repeat right center;
+    background-size: 5%
+}
+.con .goods{
+    width: 92.8%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 0.24rem;
+}
+.con .goods .evaluation{
+    color: #fff;
+    font-size: .15rem;
+    font-family: PF-Bold;
+    background: url(./../images/women/iconfanhui1.png) no-repeat right center;
+    background-size: 3%;
+}
+.con .goods .all{
+    margin-top: 0.15rem;
+    height: .5rem;
+    overflow: hidden;
+}
+.con .goods .all span{
+    padding: .1rem;
+    border-radius: .15rem;
+    color: #fff;
+    font-size: .11rem;
+    font-family: PF-Medium;
+    float: left;
+    margin-right: 0.15rem;
+    background-color: rgb(58,81,95);
+}
+.con .goods .all span:nth-child(1){
+    color: #fff;
+    font-size: .11rem;
+    font-family: PF-Bold;
+    background: linear-gradient(to top right, #01d1dd, #08e3a9);
+}
+.con .goods .user{
+    width: 92.8%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.con .goods .user .img{
+    width: 0.6em;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: url(./../images/women/touxiang1.png) no-repeat center center;
+    background-size: 100%;
+}
+.con .goods .user .txt{
+    font-family: PF-Medium;
+    font-size: .13rem;
+    color: #fff;
+    transform: translateX(.1rem);
+    line-height: .3rem;
+}
+.btn{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+}
+.btn .b-left{
+    width: 50%;
+    height: 0.5rem;
+    background-color:rgb(38,46,57);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn .b-left img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.btn .b-right{
+    width: 50%;
+    height: 0.5rem;
+    background-color:rgb(248,100,134);
+    font-size: .18rem;
+    color: #fff;
+    font-family: PF-Medium;
+    text-align: center;
+    line-height:.5rem;
+}
+
+

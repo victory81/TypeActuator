@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    background: rgb(39, 55, 67);
+}
+
+.gender_bg {
+    width: 100%;
+    height: 100%;
+}
+
+.gender_bg1 {
+    background: url('../images/info/mengban1.png')no-repeat 0rem -3.75rem, url('../images/info/mengban2.png')no-repeat 1.1rem .69rem;
+    background-size: 7.5rem 7.5rem, 5.3rem 10.61rem;
+}
+
+.gender_bg2 {
+    background: url('../images/info/lan3.png')no-repeat 0rem -3.75rem, url('../images/info/lan31.png')no-repeat 1.1rem .69rem;
+    background-size: 7.5rem 7.5rem, 5.3rem 10.61rem;
+}
+
+.gender_p {
+    width: 100%;
+    height: .88rem;
+    line-height: .88rem;
+    overflow: hidden;
+}
+
+.gender_p>a>p {
+    font-size: .14rem;
+    color: rgb(246, 246, 246);
+    font-family: PF-Medium;
+    float: right;
+    margin-right: .16rem;
+}
+
+.gender_p2 {
+    width: 100%;
+    height: .72rem;
+}
+
+.gender_p2>p {
+    text-align: center;
+    font-size: .26rem;
+    color: rgb(246, 246, 246);
+    font-family: PF-Medium;
+}
+
+.use1 {
+    width: 100%;
+    height: 1.34rem;
+    display: flex;
+    justify-content: center;
+}
+
+.use1>img {
+    width: 1.33rem;
+    height: 1.34rem;
+}
+
+.use2 {
+    width: 100%;
+    margin-top: .52rem;
+    height: 1.34rem;
+    display: flex;
+    justify-content: center;
+}
+
+.use2>img {
+    width: 1.33rem;
+    height: 1.34rem;
+}
+
+.gender_btn {
+    width: 100%;
+    margin-top: .79rem;
+    height: .7rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .34rem;
+}
+
+.gender_btn>img {
+    width: .7rem;
+    height: 0.7rem;
+}
+
+.hide {
+    display: none;
+}

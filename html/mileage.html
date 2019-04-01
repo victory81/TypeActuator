@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>里程</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/mileage.css">
+    <link rel="stylesheet" href="../css/share.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <a href="./results.html"></a>
+        <p>今日里程</p>
+        <img class="share" src="../images/my/iconfenxiang.png" alt="">
+    </header>
+
+    <section class="step">
+        <img class="light_quan" src="../images/mileage/quan3.png" alt="">
+        <div class="circleChart" id="1" data-value="77"></div>
+        <img class="xiaoren" src="../images/mileage/iconxiaoren.png" alt="">
+        <div class=" quan1"></div>
+        <div class="quan2"></div>
+        <div class="quan3"></div>
+        <p class="step_num"></p>
+        <p class="mubiao">5000</p>
+        <div class="duanwei">
+            <p>2</p>
+            <p>我的段位</p>
+        </div>
+        <div class="paiming">
+            <p>2</p>
+            <p>我的排名</p>
+        </div>
+    </section>
+
+    <div class="txt">
+        <p>相当于消耗了一个<img src="../images/mileage/icon4.png" alt="">请继续加油！</p>
+    </div>
+    <div class="txt2">
+        <p>计步榜<a href="#">里程榜</a></p>
+    </div>
+    <div class="first">
+        <div class="one">
+            <p>2</p>
+            <img src="../images/mileage/wangguan1.png" alt="">
+        </div>
+        <div class="two">
+            <img src="../images/mileage/touxiang5.png" alt="">
+            <p>江洋</p>
+        </div>
+        <div class="one">
+            <p>8</p>
+            <img src="../images/mileage/paihang.png" alt="">
+        </div>
+    </div>
+
+    <ul class="myul">
+        <li class="myli">
+            <img src="../images/mileage/icon1.png" alt="">
+            <img src="../images/mileage/touxiang.png" alt="">
+            <div>
+                <p>李逵</p>
+                <p>获得了9个奖杯</p>
+            </div>
+        </li>
+        <li class="myli">
+            <img src="../images/mileage/icon2.png" alt="">
+            <img src="../images/mileage/touxiang2.png" alt="">
+            <div>
+                <p>宋江</p>
+                <p>获得了8个奖杯</p>
+            </div>
+        </li>
+        <li class="myli">
+            <img src="../images/mileage/icon3.png" alt="">
+            <img src="../images/mileage/touxiang3.png" alt="">
+            <div>
+                <p>高俅</p>
+                <p>获得了7个奖杯</p>
+            </div>
+        </li>
+
+        <li class="myli">
+            <p>4</p>
+            <img src="../images/mileage/touxiang4.png" alt="">
+            <div class="noborder">
+                <p>武松</p>
+                <p>获得了6个奖杯</p>
+            </div>
+        </li>
+        <li class="myli">
+            <p>5</p>
+            <img src="../images/mileage/touxiang2.png" alt="">
+            <div class="noborder">
+                <p>潘金莲</p>
+                <p>获得了0个奖杯</p>
+            </div>
+        </li>
+
+    </ul>
+
+    <div class="share_box">
+        <div class="mark"></div>
+        <div class="share-dialog">
+            <div class="share-close"></div>
+            <div class="share-dialog-title">分享</div>
+            <div class="share-platform">
+                <div class="share-platform-l">社交平台：</div>
+                <div class="share-platform-r">
+                    <div class="bdsharebuttonbox">
+                        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+                        <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/remstyle.js"></script>
+    <script src="../js/circleChart.min.js"></script>
+    <script src="../js/ZeroClipboard.js"></script>
+    <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "分享到新浪微博", "bdMini": "1", "bdMiniList": ["bdxc", "tqf", "douban", "bdhome", "sqq", "thx", "ibaidu", "meilishuo", "mogujie", "diandian", "huaban", "duitang", "hx", "fx", "youdao", "sdo", "qingbiji", "people", "xinhua", "mail", "isohu", "yaolan", "wealink", "ty", "iguba", "fbook", "twi", "linkedin", "h163", "evernotecn", "copy", "print"], "bdPic": "", "bdStyle": "1", "bdSize": "32" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+    <script>
+        $("#circle1").circleChart();
+        $(".circleChart").circleChart({
+            value: 65,
+            startAngle: 40,
+            speed: 1900,
+            animation: "easeInOutCubic",
+            color: "rgb(2,210,217)",
+            backgroundColor: "rgba(0,0,0,0)",
+            widthRatio: 0.1,
+        });
+        var timer = null;
+        var num = 0;
+        timer = setInterval(function () {
+            num += 32;
+            $('.step_num').text(num);
+            if (num >= 4680) {
+                clearInterval(timer);
+            }
+        }, 10)
+
+
+
+        $('.share').on('touchstart', function () {
+            $('.share_box').show();
+        })
+        $('.share-close').on('touchstart', function () {
+            $('.share_box').hide();
+        })
+
+
+    </script>
+
+
+   
+</body >
+
+</html >

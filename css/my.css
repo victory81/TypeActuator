@@ -1,0 +1,208 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: rgb(39, 63, 76);
+}
+.header{
+    width: 100%;
+    height: 2.8rem;
+    background: url('../images/my/beijing1.png')no-repeat ;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top>a:nth-child(1){
+    width: 0.23rem;
+    height: 0.23rem;
+    background: url('../images/my/iconshezhi.png')no-repeat center center;
+    background-size: .23rem .21rem;
+    margin: .2rem .15rem;
+}
+.top>a:nth-child(2){
+    width: .23rem;
+    height: 0.23rem;
+    background: url('../images/my/iconfenxiang.png')no-repeat center center;
+    background-size: .21rem .21rem;
+    margin: .2rem .15rem;
+}
+
+.use_img{
+    width: 100%;
+    height: .75rem;
+}
+.use_img>div{
+    width: .75rem;
+    height: 0.75rem;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: .01rem solid rgba(255, 255, 255, 0.6);
+    background: url('../images/my/touxiang.png')no-repeat -.62rem -.15rem;
+    background-size: 1.6rem 1.05rem;
+}
+
+.use_name{
+    width: 100%;
+    text-align: center;
+    margin-top: .1rem;
+}
+.use_name>p{
+    font-family:PF-Regular;
+    font-size: .14rem;
+    color: rgb(246, 246, 246);
+}
+
+.logo{
+    width: .78rem;
+    height: 0.32rem;
+    background: rgb(0, 38, 57);
+    border-radius: .5rem 0rem 0rem .5rem;
+    position: absolute;
+    right: 0rem;
+    bottom: 1.6rem;
+    text-align: center;
+}
+.logo>p{
+    font-family:PF-Regular;
+    color: rgb(246, 246, 246);
+    font-size: .12rem;
+    line-height: .32rem;
+}
+.logo>p>img{
+    width: 0.12rem;
+    height: 0.12rem;
+}
+
+.last{
+    width: 100%;
+    margin-top: .5rem;
+    overflow: hidden;
+}
+.last_div{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.last_div>p:nth-child(1){
+    font-family: number;
+    color: rgb(246, 246, 246);
+    font-size: .24rem;
+}
+.last_div>p:nth-child(2){
+    font-family:PF-Regular;
+    color: rgb(246, 246, 246);
+    font-size: .13rem;
+    margin-top: .05rem;
+}
+
+
+.list{
+    width: 100%;
+    overflow: hidden;
+    margin-top: .11rem;
+}
+.list_div{
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list_div>img{
+    width: 0.28rem;
+    height: 0.28rem;
+}
+.list_div>p{
+    font-family:PF-Regular;
+    color: rgb(246, 246, 246);
+    font-size: .13rem;
+    margin-top: .05rem;
+}
+
+.myul{
+    width: 100%;
+    /* margin-top: .11rem; */
+    padding: .11rem .15rem;
+    box-sizing: border-box;
+    border-bottom: .01rem solid rgb(58, 81, 95);
+}
+.myli{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: .31rem;
+}
+.myli>p{
+    font-family:PF-Regular;
+    color: rgb(246, 246, 246);
+    font-size: .13rem;
+}
+.myli>img{
+    width: 0.06rem;
+    height: 0.11rem;
+}
+
+
+.share_box{
+    display: none;
+}
+
+
+footer>ul {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background: #27414e;
+    border-top: .01rem solid rgb(58, 81, 95) ;
+}
+
+footer ul li {
+    text-align: center;
+    width: 20%;
+    float: left;
+    font-size: .14rem;
+    font-family: PF-Medium;
+    padding-top: .4rem;
+
+}
+footer ul li a {
+    color: #999999;
+}
+
+footer ul li:nth-child(5) a {
+    color: #fff;
+}
+
+footer ul li:nth-child(1) {
+    
+    background: url("../images/quan/icon1.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(2) {
+    background: url("../images/quan/icon2.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(3) {
+    background: url("../images/dongyou/footer_icon-3.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(4) {
+    background: url("../images/icon/footer_icon-4.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(5) {
+    background: url("../images/icon/footer_icon5.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}

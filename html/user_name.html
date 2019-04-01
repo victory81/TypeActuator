@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>昵称</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/user_name.css">
+</head>
+
+<body onload="load()">
+    <div id="user_name_bg">
+        <div class="user_name_box">
+            <p>昵称</p>
+        </div>
+        <div class="user_name">
+            <input class="user_input" type="text" value="第一组">
+            <img class="refresh" src="../images/use_name/shuaxin.png" alt="">
+        </div>
+        <div class="xian_box">
+            <img src="../images/use_name/XIAN.png" alt="">
+        </div>
+
+        <div class="age">
+            <p>年龄</p>
+        </div>
+        <div class="age_num">
+            <div class="num_bg"></div>
+            <div class="num_box">
+            </div>
+        </div>
+        <a href="./HW.html">
+            <div class="btn_box">
+                <img src="../images/use_name/btn.png" alt="">
+            </div>
+        </a>
+
+
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/remstyle.js"></script>
+    <script src="../js/ageslide.js"></script>
+
+    <script>
+        var names = ['哎呦喂', '风火轮', '莫扎特', '特仑苏', '安慕希', '贾克斯', '金克丝', ' 薇  恩'];
+        $('.refresh').on('touchstart', function () {
+            // console.log(1);
+            $('.user_input').val(names[Math.floor(Math.random() * names.length)]);
+            
+        })
+
+    </script>
+</body>
+
+</html>

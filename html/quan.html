@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>悦动圈</title>
+    <link rel="stylesheet" href="../css/quan.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/reset1.css">
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zepto.touch.js"></script>
+    <script src="../js/remstyle.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <span></span>
+        <span>动力圈</span>
+        <span></span>
+    </header>
+
+    <main>
+        <div class="nav">
+            <span class="left_1">推荐</span>
+            <span class="right_">关注</span>
+        </div>
+        <div class="frist">
+            <ul>
+                <li>
+                    <div>
+                        <img src="../images/quan/touxiang1.png" alt="">
+                    </div>
+                    <div class="zi">
+                        <span>炊烟袅袅</span>
+                        <span>5月20日</span>
+                    </div>
+                    <div class="guanzu">
+                        关注
+                    </div>
+                    <div class="pic">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>今天也是元气满满的一天呢!! <span>#春季开练#&nbsp;#我的训练我做主#</span> </p>
+                    <div>
+                        <span>457</span>
+                        <span>457</span>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="../images/quan/touxiang2.png" alt="">
+                    </div>
+                    <div class="zi">
+                        <span>炊烟袅袅</span>
+                        <span>5月21日</span>
+                    </div>
+                    <div class="guanzu">
+                        关注
+                    </div>
+                    <div class="picc">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>今天也是元气满满的一天呢!! <span>#春季开练#&nbsp;#我的训练我做主#</span> </p>
+                    <div>
+                        <span>457</span>
+                        <span>457</span>
+                    </div>
+                </li>
+                <li style="margin-bottom:.5rem">
+                    <div>
+                        <img src="../images/quan/touxiang3.png" alt="">
+                    </div>
+                    <div class="zi">
+                        <span>炊烟袅袅</span>
+                        <span>5月22日</span>
+                    </div>
+                    <div class="guanzu">
+                        关注
+                    </div>
+                    <div class="piccc">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>今天也是元气满满的一天呢!! <span>#春季开练#&nbsp;#我的训练我做主#</span> </p>
+                    <div>
+                        <span>457</span>
+                        <span>457</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="./index.html">主页</a></li>
+            <li><a href="./results.html">成绩</a></li>
+            <li><a >动力圈</a></li>
+            <li><a href="./dongyou.html">动友</a></li>
+            <li><a href="./my.html">我</a></li>
+        </ul>
+    </footer>
+</body>
+<script>
+    $(".left_1").addClass('left_');
+    $(".left_1").on('tap', function () {
+        $(this).addClass('left_');
+        $(this).siblings().removeClass('left_');
+    })
+    $(".right_").on('tap', function () {
+        $(this).addClass('left_');
+        $(this).siblings().removeClass('left_');
+    })
+
+    $(".guanzu").on('tap', function () {
+        $(this).toggleClass('focus');
+        $(this).text('已关注');
+        $(".focus").on('tap', function () {
+            $(this).addClass('guanzu');
+            $(this).toggleClass().text('关注');
+        })
+    })
+
+</script>
+
+</html>

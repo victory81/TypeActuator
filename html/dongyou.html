@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动友列表</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/reset1.css">
+    <link rel="stylesheet" href="../css/dongyou.css">
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zepto.touch.js"></script>
+    <script src="../js/remstyle.js"></script>
+</head>
+
+<body>
+    <header>
+        <span></span>
+        <span>动友</span>
+        <a href="./YueDY.html"></a>
+        <div class="inputt">
+            <span class="sp"></span>
+            <span class="spa"></span>
+        </div>
+    </header>
+
+    <main>
+        <ul class="main-list">
+            <li>
+                <img src="./../images/dongyou/tup1.png" alt="">
+                <div class="txt">
+                    <div class="txt-left">
+                        <p>发现</p>
+                        <p>你好?</p>
+                    </div>
+                    <div class="dis">
+                        <div class="txt-right">
+                            <p>7:50</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <img src="./../images/dongyou/tu2.png" alt="">
+                <div class="txt">
+                    <div class="txt-left">
+                        <p>不会思考的芦苇</p>
+                        <p>你好啊?</p>
+                    </div>
+                    <div class="dis">
+                        <div class="txt-right">
+                            <p>9:20</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="./../images/dongyou/tu3.png" alt="">
+                <div class="txt">
+                    <div class="txt-left">
+                        <p>炊烟袅袅</p>
+                        <p>你好啊?</p>
+                    </div>
+                    <div class="dis">
+                        <div class="txt-right">
+                            <p>5:20</p>
+                            <!-- <p></p> -->
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="./../images/dongyou/tu4.png" alt="">
+                <div class="txt">
+                    <div class="txt-left">
+                        <p>订阅号消息</p>
+                        <p>你好?</p>
+                    </div>
+                    <div class="dis">
+                        <div class="txt-right">
+                            <p>9:40</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="./../images/dongyou/tup1.png" alt="">
+                <div class="txt">
+                    <div class="txt-left">
+                        <p>客服消息</p>
+                        <p>你好?</p>
+                    </div>
+                    <div class="dis">
+                        <div class="txt-right">
+                            <p>9:30</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="./../images/dongyou/tu5.png" alt="">
+                <div class="txt">
+                    <div class="txt-left">
+                        <p>等等你啊</p>
+                        <p>你好?</p>
+                    </div>
+                    <div class="dis">
+                        <div class="txt-right">
+                            <p>10:30</p>
+                            <!-- <p></p> -->
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="./index.html">主页</a></li>
+            <li><a href="./results.html">成绩</a></li>
+            <li><a href="./quan.html">动力圈</a></li>
+            <li><a>动友</a></li>
+            <li><a href="./my.html">我</a></li>
+        </ul>
+    </footer>
+</body>
+<script>
+    $(".main-list li").on("touchmove", function () {
+        $(this).addClass("move")
+        $(this).find(".txt-right").css("display", "none");
+        $(this).find(".dis").addClass("out").html("删除");
+        $(".main-list li .out").click(function(){
+            $(this).parent().parent().remove();
+        })
+    })
+
+</script>
+
+</html>

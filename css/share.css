@@ -1,0 +1,94 @@
+.mark {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .4;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    z-index: 1001;
+}
+
+.share-dialog {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 1.5rem;
+    ;
+    background: #fff;
+    z-index: 1002;
+}
+
+.share-dialog .share-close {
+    position: absolute;
+    right: .07rem;
+    top: .1rem;
+    width: .26rem;
+    height: .26rem;
+    display: inline-block;
+    cursor: pointer;
+    background: url("../images/my/dialog-close.png") no-repeat;
+    background-size: .26rem .26rem !important;
+}
+
+.share-dialog .share-dialog-title {
+    height: .45rem;
+    line-height: .45rem;
+    text-indent: .15rem;
+    background: #eee;
+    font-size: .24rem;
+    font-weight: bolder;
+}
+
+.share-platform {
+    padding: .2rem .2rem;
+    box-sizing: border-box;
+}
+
+.share-platform .share-platform-l {
+    font-size: .2rem;
+    width: 100%;
+    font-weight: bolder;
+    margin-top: .1rem;
+}
+
+.share-platform .share-platform-r {
+    width: 3.1rem;
+}
+
+.share-platform .bds_weixin {
+    background-image: url('../images/my/share1.png') !important;
+    background-position: center center !important;
+    background-size: .39rem .39rem !important;
+}
+
+.share-platform .bds_tsina {
+    background: url('../images/my/share3.png') no-repeat center center !important;
+    background-size: .31rem .31rem !important;
+}
+
+.share-platform .bds_sqq {
+    background: url('../images/my/share4.png') no-repeat !important;
+    background-position: center center !important;
+    background-size: .31rem .31rem !important;
+}
+
+.share-platform .bds_qzone {
+    background-image: url('../images/my/share2.png') !important;
+    background-position: center center !important;
+    background-size: .39rem .39rem !important;
+}
+
+.share-platform .share-platform-text {
+    color: #aaa;
+    margin-top: .05rem;
+}
+
+.bdshare-button-style1-32 a {
+    width: .35rem !important;
+    height: .35rem !important;
+}

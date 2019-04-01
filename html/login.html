@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="./../css/login.css" type="text/css">
+<title>登录页</title>
+</head>
+<body>
+    <video poster="assets/screenshot1.jpg" autoplay muted loop class="vidbacking">
+		<source src="./../video/yundong.webm" type="video/webm">
+        <source src="./../video/yundong.mp4" type="video/mp4">
+    </video>
+    <div class="video-back">
+        <p class="login"><a href="./impower.html">微信登录</a></p>
+        <p class="link">
+            <a class="weixin"></a>
+            <span class="sx"></span>
+            <a class="qq"></a>
+        </p>
+        <p class="phone">
+            <span>手机号登录</span>
+            <span>手机号注册</span>
+        </p>
+        <p class="foot">注册或登录即同意型动 <a href="#">《用户协议》</a>和<a href="#">《隐私协议》</a></p>
+        <div class="clearfix"></div>
+    </div>
+    <script src="./../js/jquery-3.3.1.min.js"></script>
+    <script src="./../js/remstyle.js"></script>
+    <script src="./../js/jquery.login.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('body').vidbacking({
+                'masked': true
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: rgb(39, 65, 78);
+}
+
+header {
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: .18rem;
+    color: #f6f6f6;
+    font-family: PF-Medium;
+    overflow: hidden;
+    text-indent: .5rem;
+}
+header img{
+    width: 0.18rem;
+    height: .18rem;
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 0.1rem;
+}
+.total {
+    width: 100%;
+    /* height: 1.8rem; */
+}
+
+.total .top {
+    width: 93%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total .top span:nth-child(1),
+.total .top span:nth-child(3) {
+    font-size: .12rem;
+    color: #fff;
+    font-family: PF-Regular;
+    display: block;
+    width: 0.7rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: right;
+}
+
+.total .top span:nth-child(1) {
+    background: url(./../images/results/jiangbei.png) no-repeat 0.2rem .08rem;
+    background-size: 20%;
+}
+
+.total .top span:nth-child(3) {
+    background: url(./../images/results/icon1.png) no-repeat 0rem .08rem;
+    background-size: 20%;
+}
+
+.total .top .mileage {
+    font-size: .6rem;
+    color: #fff;
+    font-family: number;
+}
+
+.total .center,
+.total .btn {
+    font-size: .12rem;
+    color: #fff;
+    font-family: PF-Medium;
+    text-align: center;
+}
+
+.total .btn {
+    margin: .1rem 0;
+}
+
+.total .btn img {
+    width: 0.12rem;
+    height: 0.12rem;
+    margin-left: 0.03rem;
+}
+
+.con {
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.con .con-list {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.con .con-list li {
+    width: 50%;
+    height: 0.9rem;
+    float: left;
+}
+
+.con .con-list li p:nth-child(1) {
+    font-size: .3rem;
+    color: #fff;
+    font-family: number;
+}
+
+.con .con-list li p:nth-child(1) span img {
+    width: 0.18rem;
+    height: 0.18rem;
+    margin-right: 0.05rem;
+}
+
+.con .con-list li p:nth-child(1) .zero {
+    font-size: .2rem;
+    color: #fff;
+    font-family: number;
+}
+
+.con .con-list li p:nth-child(2) {
+    font-size: .15rem;
+    color: rgba(255, 255, 255, .5);
+    font-family: PF-Medium;
+    text-indent: .3rem;
+}
+
+.week {
+    width: 61.3%;
+    margin: 0 auto;
+    height: 0.3rem;
+    font-size: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.week span {
+    font-size: .16rem;
+    color: #fff;
+    font-family: PF-Medium;
+    display: block;
+    width: 0.7rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+
+.week span:nth-child(2) {
+    background: url(./../images/results/yuanjiao.png) no-repeat;
+    background-size: 100%;
+}
+
+.line {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: -.25rem;
+    transform: translateY(-.5rem);
+}
+
+.line-list {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: -.7rem;
+}
+
+.line-list span {
+    width: 10%;
+    font-size: .11rem;
+    color: #fff;
+    font-family: PF-Regular;
+    float: left;
+    margin-left: .14rem;
+}
+
+footer>ul {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background: #27414e;
+    border-top: .01rem solid rgb(58, 81, 95);
+}
+
+footer ul li {
+    text-align: center;
+    width: 20%;
+    float: left;
+    font-size: .14rem;
+    font-family: PF-Medium;
+    padding-top: .4rem;
+
+}
+
+footer ul li a {
+    color: #999999;
+}
+
+footer ul li:nth-child(2) a {
+    color: #fff;
+}
+
+footer ul li:nth-child(1) {
+
+    background: url("../images/quan/icon1.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(2) {
+    background: url("../images/icon/footer_icon2.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(3) {
+    background: url("../images/dongyou/footer_icon-3.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(4) {
+    background: url("../images/icon/footer_icon-4.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}
+
+footer ul li:nth-child(5) {
+    background: url("../images/quan/icon5.png") no-repeat center 0.1rem;
+    background-size: .23rem .23rem;
+}

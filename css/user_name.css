@@ -1,0 +1,143 @@
+body, html {
+    height: 100%;
+    background: rgb(39, 55, 67);
+}
+
+#user_name_bg {
+    width: 100%;
+    height: 100%;
+    background: url('../images/use_name/beijing.png')no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.user_name_box {
+    width: 100%;
+    text-align: center;
+    padding-top: 1.01rem;
+}
+
+.user_name_box>p {
+    font-family: PF-Medium;
+    color: rgb(246, 246, 246);
+    font-size: .26rem;
+}
+
+.user_name {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: .2rem;
+    position: relative;
+}
+
+.user_name>input {
+    padding-left: .1rem;
+    width: .6rem;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(246, 246, 246);
+    font-family: PF-Regular;
+    font-size: .17rem;
+}
+
+.user_name>img:nth-child(2) {
+    width: 0.2rem;
+    height: 0.2rem;
+    position: absolute;
+    right: 1.2rem;
+    top: 0px;
+}
+
+.xian_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: .05rem;
+}
+
+.xian_box>img {
+    width: 1.5rem;
+}
+
+.age {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.1rem;
+}
+
+.age>p {
+    font-family: PF-Medium;
+    color: rgb(246, 246, 246);
+    font-size: .26rem;
+}
+
+.age_num {
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.num_box {
+    width: 2rem;
+    height: 1.3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: .1rem;
+}
+
+.age-item {
+    width: 80%;
+    height: .5rem;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    text-align: center;
+    line-height: .5rem;
+    color: rgb(246, 246, 246);
+    opacity: .6;
+    font-family: PF-Regular;
+    font-size: .17rem;
+    transition: top .5s linear;
+}
+
+.num_box .age-option-select {
+    opacity: 1;
+    font-size: .18rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.num_bg {
+    width: 1.6rem;
+    height: .5rem;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    margin-top: .5rem;
+    background: url('../images/use_name/XIAN.png')no-repeat 0rem 0rem, url('../images/use_name/XIAN.png')no-repeat 0rem .49rem;
+    background-size: 1.6rem .01rem;
+}
+
+.btn_box {
+    width: 100%;
+    height: .7rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: .34rem;
+    left: 0rem;
+}
+
+.btn_box>img {
+    width: .7rem;
+    height: 0.7rem;
+}

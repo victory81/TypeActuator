@@ -1,0 +1,182 @@
+body{
+    background: rgb(38, 40, 60);
+    overflow: hidden;
+}
+#header {
+    width: 100%;
+    height: 0.45rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .01rem solid rgb(58, 81, 95);
+}
+
+#header>a:nth-child(1) {
+    width: 0.25rem;
+    height: 80%;
+    background: url('../images/yuedongyou/return.png') no-repeat center center;
+    background-size: .07rem .13rem;
+    margin-left: .1rem;
+}
+
+#header>p {
+    color: rgb(246, 246, 246);
+    font-size: 0.18rem;
+    font-family:PF-Bold;
+    line-height: .45rem;
+}
+
+#header>img {
+    width: .15rem;
+    height: .15rem;
+    margin-right: .16rem;
+}
+
+
+
+.swiper_float{
+    float: left;
+    margin-right: 0;
+}
+.clear_{
+    overflow: hidden;
+}
+
+.swiper-container{
+    overflow: hidden;
+}
+.classify{
+    width: 13rem;
+    height: 1.23rem;
+    position: relative;
+}
+
+.black_bg{
+    width: .91rem;
+    height: .91rem;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img_box{
+    /* margin-left: .15rem; */
+    width: .91rem;
+    height: .91rem;
+    background: url('../images/yuedongyou/img1.jpg')no-repeat -22px -40px;
+    background-size:130px 200px; 
+    border-radius: .04rem;
+    float: left;
+    margin-top:.16rem; 
+    text-align: center;
+    position: relative;
+}
+.img_box>p{
+    font-family:PF-Medium;
+    font-size: .16rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img_box1{
+    background: url('../images/yuedongyou/img2.jpg')no-repeat -.3rem -.11rem;
+    background-size:2rem 1.6rem; 
+}
+.img_box2{
+    background: url('../images/yuedongyou/img3.jpg')no-repeat -.22rem -.11rem;
+    background-size:1.3rem 2rem; 
+}
+.img_box3{
+    background: url('../images/yuedongyou/img4.jpg')no-repeat -.08rem .03rem;
+    background-size:1rem 1.4rem; 
+}
+
+
+
+
+
+.recommend{
+    width: 100%;
+    padding: .11rem .15rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.recommend>p{
+    font-family:PF-Medium;
+    font-size: .16rem;
+    color: rgb(255, 255, 255);
+}
+.div1{
+    width: 1.65rem;
+    height: 2.08rem;
+    border-radius: .04rem;
+    background: rgb(51, 69, 84);
+    overflow: hidden;
+    margin-top: .15rem;
+    float: left;
+}
+.div_margin{
+    margin-left: .15rem;
+}
+.user_tx{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 100%;
+    background: url('../images/yuedongyou/img4.jpg')no-repeat -.44rem 0rem;
+    background-size: 1.6rem 2rem;
+    margin: 0 auto;
+    margin-top: .14rem;
+}
+.user_tx1{
+    background: url('../images/yuedongyou/img5.jpg')no-repeat -.44rem 0rem;
+    background-size: 1.6rem 2rem;
+}
+.user_tx2{
+    background: url('../images/yuedongyou/img6.jpg')no-repeat -.5rem 0rem;
+    background-size: 1.7rem 2.56rem;
+}
+.user_tx3{
+    background: url('../images/yuedongyou/img7.jpg')no-repeat -.35rem 0rem;
+    background-size: 1.4rem 1.4rem;
+}
+.div_bottom{
+    width: 100%;
+    padding: 0rem .12rem;
+    margin-top: .2rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.div_bottom>p:nth-child(1){
+    font-family:PF-Regular;
+    font-size: .14rem;
+    color: rgb(246, 246, 246);
+}
+.div_bottom>img{
+    width: .24rem;
+    height: 0.11rem;
+    position: absolute;
+    right: .1rem;
+    top: .03rem;
+}
+.div_bottom>p:nth-child(3){
+    font-family:PF-Regular;
+    font-size: .12rem;
+    color: rgb(204, 204, 204);
+    margin-top: .12rem;
+}
+.bottom_btn{
+    width: .88rem;
+    height: .27rem;
+    background: linear-gradient(to right,#01d1dd,#08e3a9);
+    border-radius: .14rem;
+    text-align: center;
+    line-height: .27rem;
+    font-family:PF-Medium;
+    font-size: .14rem;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: .1rem;
+}

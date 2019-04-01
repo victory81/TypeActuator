@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    color: #fff;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #27414e;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: .8rem;
+    border-bottom: .01rem solid rgb(57, 83, 95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: .18rem;
+    color: #fff;
+    font-family: PF-Medium;
+}
+header img:nth-child(1) {
+    width: .07rem;
+    height: .13rem;
+    transform: translateX(-.3rem);
+}
+
+header img:nth-child(3) {
+    width: .15rem;
+    height: .15rem;
+    transform: translateX(.3rem);
+}
+
+.swiper-container {
+    width: 100%;
+    perspective: 12rem;
+    font-size: 0;
+}
+
+.swiper-wrapper {
+    margin-top: .1rem;
+}
+
+.swiper-slide {
+    width: 80%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    margin-top: .6rem;
+}
+
+.swiper-slide .main-img {
+    width: 2.6rem;
+    height: 4rem;
+    margin: 0 auto;
+    background: url(./../images/ycg/kapian.png) no-repeat 0;
+    background-size: 100%;
+    /* background-color: #fff; */
+}
+
+.swiper-slide .main-img .top img {
+    width: 100%;
+    height: 2.2rem;
+    margin: 0 auto;
+}
+
+.swiper-slide .main-img .list {
+    width: 88.461%;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+}
+
+.swiper-slide .main-img .list li {
+    height: 0.25rem;
+    line-height: 0.25rem;
+    font-size: .15rem;
+    color: rgb(51, 51, 51);
+    font-family: PF-Regular;
+}
+.swiper-slide .main-img .list li:nth-child(1) span img {
+    width: 0.24rem;
+    height: 0.11rem;
+}
+
+.swiper-slide .main-img .list li:nth-child(2) span img {
+    width: 0.15rem;
+    height: 0.15rem;
+}
+.swiper-slide .main-img .list li:nth-child(3) span {
+    font-size: .14rem;
+    color: rgb(51, 51, 51);
+    font-family: PF-Regular;
+}
+
+.swiper-slide .main-img .list li:nth-child(2) span:nth-child(1) {
+    font-size: .11rem;
+}
+
+.swiper-slide .main-img .list li:nth-child(3) span:nth-child(2) {
+    font-size: .17rem;
+    color: rgb(248, 100, 134);
+}
+.swiper-slide .main-img .list li:nth-child(4) span,
+.swiper-slide .main-img .list li:nth-child(5) span{
+    font-size: .14rem;
+    font-family: PF-Medium;
+    color: #9fa0a0;
+}
+.swiper-slide .main-img .list li:nth-child(4) span:nth-child(2),
+.swiper-slide .main-img .list li:nth-child(5) span:nth-child(2) {
+    margin-left: .5rem;
+    
+}
+
+.swiper-slide .main-img .list li:nth-child(4) span img,
+.swiper-slide .main-img .list li:nth-child(5) span img {
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-right: 0.1rem;
+}
+
+#pagination {
+    position: absolute;
+    top: 1rem;
+    margin-left: .3rem;
+    width: 100%
+}
+
+#pagination .swiper-pagination-bullet {
+    width: 9.5%;
+    float: left;
+    margin: 0 0 0 6.15%;
+    background: 0;
+    opacity: 1;
+    transform: translateX(.2rem);
+}
+
+.swiper-pagination-bullet i {
+    width: .7rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .16rem;
+    display: block;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-family: PF-Medium;
+}
+
+.swiper-pagination-bullet-active i {
+    background: url(./../images/ycg/yuanjiao.png) no-repeat center;
+    background-size: auto 100%;
+    color: #fff;
+}
+
+.btn {
+    width: 1.2rem;
+    height: 0.33rem;
+    border-radius: .17rem;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(./../images/ycg/iconyuyue.png) no-repeat;
+    background-size: 100%;
+}

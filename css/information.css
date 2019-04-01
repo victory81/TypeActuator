@@ -1,0 +1,262 @@
+.box{
+    background: #262e39;
+}
+.boy{
+    width: 100%;
+    height: 10.8rem;;
+    background: url("../images/Mobile/beijing.png")no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.boy span {
+    font-family: PF-Medium;
+    display: inline-block;
+    overflow: hidden;
+}
+.con{
+    display: inline-block;
+    font-size: .2rem;
+    color: #fff;
+    margin-left: 1.3rem;
+    margin-top: .34rem;
+}
+.iconfan img{
+    width: 0.1rem;
+    height: 0.15rem;
+    margin-top: .34rem;
+    margin-left: .15rem;
+}
+.icongen img{
+    width: 0.06rem;
+    height: 0.2rem;
+    margin-top: .34rem;
+    margin-right: .15rem;
+}
+.iconfan{
+    float: left;
+}
+.icongen{
+    float: right;
+}
+.li_ul{
+    margin-top:3.8rem; 
+}
+.li_ul a{
+    color: #fff;
+}
+.li_ul li:nth-child(1){
+    text-align: center;
+    font-size: .21rem;
+    margin-bottom: .05rem;
+    font-family: PF-Bold;
+}
+#new{
+    color: #767c7f;
+}
+.li_ul li:nth-child(2){
+    font-family: PF-Medium;
+    text-align: center;
+    font-size: .12rem;
+    margin-bottom: .22rem;
+}
+#ff{
+    color: #cccccc;
+    font-size: .12rem;
+    font-family: PF-Medium;
+}
+#fff{
+    color: #cccccc;
+    font-size: .12rem;
+    font-family: PF-Medium;
+}
+.li_ul li:nth-child(3){
+    text-align: center;
+    margin-bottom: .06rem;
+}
+.li_ul li:nth-child(4){
+    text-align: center;
+}
+.li_ull li span{
+    color: #fff;
+    font-size: 0.14rem;
+    font-family: PF-Bold;
+}
+.li_ull li p{
+    color: #cccccc;
+    margin-left: .02rem;
+    font-size: .1rem;
+    font-family: PF-Medium;
+}
+.li_ull li{
+    float: left;
+}
+.li_ull{
+    overflow: hidden;
+    float: right;
+    margin-top: .29rem;
+}
+.li_ull li:nth-child(1){
+    margin-right: .85rem;
+}
+.li_ull li:nth-child(2){
+    margin-right: .85rem;
+}
+.li_ull li:nth-child(3){
+    margin-right: .5rem;
+}
+.div_img{
+    margin-top: 1rem;
+}
+    .div_img span img:nth-child(1){
+    width: 1.3rem;
+    height: 0.35rem;
+    margin-left: .32rem;
+    margin-right: .48rem;
+    }
+    .bai{
+        color: #fff;
+        font-size: .14rem;
+    }
+    .div_img span:nth-child(2){
+    width: 1.3rem;
+    height: 0.35rem;
+    background: url("../images/Mobile/yuanjiao.png")no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height:0.35rem;
+}
+.div_u ul {
+float: left;
+overflow: hidden;
+}
+._ull{
+    margin-left: .1rem;
+}
+._ull li{
+    margin-right: .1rem;
+    border-radius: .05rem;
+    margin-bottom: .4rem;
+}
+._ul li{
+    border-radius: .05rem;
+    margin-bottom: .4rem;
+}
+._ull li:nth-child(1){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang4.png")no-repeat -.1rem 0 ;
+    background-size: 100% 100%;
+}
+._ull li:nth-child(2){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang3.png")no-repeat 0 0;
+    background-size: 100% 100%;
+}
+._ull li:nth-child(3){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang5.png")no-repeat ;
+    background-size: 100% 100%;
+}
+._ull li:nth-child(4){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang7.png")no-repeat ;
+    background-size: 100% 100%;
+}
+._ul li:nth-child(1){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang1.png")no-repeat;
+    background-size: 100% 100%;
+}
+._ul li:nth-child(2){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang2.png")no-repeat ;
+    background-size: 100% 100%;
+}
+._ul li:nth-child(3){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang6.png")no-repeat ;
+    background-size: 100% 100%;
+}
+._ul li:nth-child(4){
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/Mobile/touxiang87.png")no-repeat  ;
+    background-size: 100% 100%;
+}
+.div_u{
+    margin-top: .55rem;
+    overflow: hidden;
+}
+.div_u ul:nth-child(1){
+    font-size: .12rem;
+}
+.ul_1{
+    margin-left: .15rem;
+    font-family: PF-Medium;
+}
+.ul_1 li{
+    margin-bottom: .75rem;
+    color: #fff;
+}
+.ul_uu{
+    margin-left: .15rem;
+    margin-right: .1rem;
+}
+.quan{
+  width: 0.12rem;
+  height: 0.12rem;
+  margin-bottom: .03rem;
+  margin-top: .03rem;
+}
+.xian{
+    height: 0.6rem;
+    margin-left: .05rem;
+}
+.xia{
+    font-size: .08rem;
+    color: #a5a7aa;
+}
+.ul_zi{
+    font-size: .1rem;
+    color: #fff;
+    margin-left: .15rem;
+    font-family: PF-Medium;
+}
+
+.ul_zi li:nth-child(2){
+    margin-bottom: .1rem;
+}
+.ul_zi li:nth-child(3){
+    margin-bottom: .37rem;
+}
+.ul_zi li:nth-child(4){
+    margin-bottom: .2rem;
+}
+.ul_zi li:nth-child(5){
+    margin-bottom: .37rem;
+}
+.ul_zi li:nth-child(6){
+    margin-bottom: .2rem;
+}
+.ul_zi li:nth-child(7){
+    margin-bottom: .37rem;
+}
+
+.ul_zi li:nth-child(9){
+    margin-bottom: .1rem;
+}
+.ul_2{
+    font-size: .12rem;
+    color: #fff;
+    margin-left: .21rem;
+    font-family: PF-Medium;
+}
+.ul_2 li{
+    margin-bottom: .75rem;
+}

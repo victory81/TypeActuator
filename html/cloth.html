@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>女装馆</title>
+    <link rel="stylesheet" href="../css/cloth.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zepto.touch.js"></script>
+    <script src="../js/remstyle.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="./classify.html"></a>
+        <span>女装馆</span>
+        <span></span>
+        <ul class="nav">
+            <li class="liang_"><span>推荐</span></li>
+            <li class="ll1"><span>销量</span></li>
+            <li class="ll2"><span>新品</span></li>
+            <li class="ll3" id="sortPrice"><span>价格</span></li>
+        </ul>
+    </header>
+    <main>
+        <ul>
+            <li><a href="">活动</a></li>
+            <li><a href="">选择品牌</a></li>
+            <li><a href="">发货仓</a></li>
+        </ul>
+    </main>
+    <footer>
+        <ul class="cate_list">
+            <li class="foot">
+                <a href="./women.html">
+                </a>
+                <p>休闲时尚舒适百搭</p>
+                <p>￥<span class="price">1588</span></p>
+                <p>99%好评</p>
+                <span></span>
+            </li>
+            <li class="foot">
+                <a href="./women.html">
+                </a>
+                <p>休闲时尚舒适百搭</p>
+                <p>￥<span class="price">288</span></p>
+                <p>99%好评</p>
+                <span></span>
+            </li>
+            <li class="foot">
+                <a href="./women.html">
+                </a>
+                <p>休闲时尚舒适百搭</p>
+                <p>￥<span class="price">588</span></p>
+                <p>99%好评</p>
+                <span></span>
+            </li>
+            <li class="foot">
+                <a href="./women.html">
+                </a>
+                <p>休闲时尚舒适百搭</p>
+                <p>￥<span class="price">888</span></p>
+                <p>99%好评</p>
+                <span></span>
+            </li>
+        </ul>
+    </footer>
+    <div class="car">
+        <span></span>
+    </div>
+</body>
+<script>
+    var isPx=true;
+$(function () {
+    $('#sortPrice').on('click',function () {
+        var arr=$('.foot','.cate_list').toArray();
+        isPx=!isPx;
+        arr.sort(function (a,b) {
+            var pri1=$('.price',a).text();
+            var pri2=$('.price',b).text();
+            var pri=pri1-pri2;
+            return isPx ? -pri : pri;
+        });
+        $('.cate_list').empty();
+        $('.cate_list').append(arr);
+        return false;
+    })
+})
+</script>
+<script>
+    $(".liang_").addClass('liang');
+   $(".liang_").on('tap',function(){
+        $(this).addClass('liang');
+        $(this).siblings().removeClass('liang');
+    })
+    $(".ll1").on('tap',function(){
+        $(this).addClass('liang');
+        $(this).siblings().removeClass('liang');
+    })
+    $(".ll2").on('tap',function(){
+        $(this).addClass('liang');
+        $(this).siblings().removeClass('liang');
+    })
+    $(".ll3").on('tap',function(){
+        $(this).addClass('liang');
+        $(this).siblings().removeClass('liang');
+    })
+</script>
+<script>
+     var car=document.getElementsByClassName('car')[0];
+    // car.touchstart=function(e){
+    //     var oEvent=e||event;
+    //     var x=oEvent.clientX-car.offsetLeft;
+    //     var y=oEvent.clientY-car.offsetTop;
+    //     document.touchmove=function (e) {
+    //         var oEvent=e||event;
+    //         var left=oEvent.clientX-x;
+    //         var top=oEvent.clientY-y;
+    //         var maxW=document.documentElement.clientWidth-car.offsetWidth;
+    //         var maxH=document.documentElement.clientHeight-car.offsetHeight;
+    //         if(left<0)left=0;
+    //         if(top<0)top=0;
+    //         if(left>maxW)left=maxW;
+    //         if(top>maxH)top=maxH;
+    //         car.style.left=left+'px';
+    //         car.style.top=top+'px';
+    //     }
+    // };
+    // document.touchend=function () {
+    //     document.onmousemove=null;
+    // };
+
+
+    $(function(){
+        var cont=$(".car");    
+        var contW=$(".car").width();
+        var contH=$(".car").height();            
+        var startX,startY,sX,sY,moveX,moveY;        
+        var winW=$(window).width();    
+        var winH=$(window).height();
+        // var barrage_name=$("#barrage_name");
+        // var barrage_frame=$("#barrage_frame");
+        var body=$("body");
+        
+        
+        cont.on({//绑定事件
+            touchstart:function(e){                
+                startX = e.originalEvent.targetTouches[0].pageX;    //获取点击点的X坐标    
+                startY = e.originalEvent.targetTouches[0].pageY;    //获取点击点的Y坐标
+                //console.log("startX="+startX+"************startY="+startY);
+                sX=$(this).offset().left;//相对于当前窗口X轴的偏移量
+                sY=$(this).offset().top;//相对于当前窗口Y轴的偏移量
+                //console.log("sX="+sX+"***************sY="+sY);
+                leftX=startX-sX;//鼠标所能移动的最左端是当前鼠标距div左边距的位置
+                rightX=winW-contW+leftX;//鼠标所能移动的最右端是当前窗口距离减去鼠标距div最右端位置
+                topY=startY-sY;//鼠标所能移动最上端是当前鼠标距div上边距的位置
+                bottomY=winH-contH+topY;//鼠标所能移动最下端是当前窗口距离减去鼠标距div最下端位置                
+                },
+            touchmove:function(e){                
+                e.preventDefault();
+                moveX=e.originalEvent.targetTouches[0].pageX;//移动过程中X轴的坐标
+                moveY=e.originalEvent.targetTouches[0].pageY;//移动过程中Y轴的坐标
+                //console.log("moveX="+moveX+"************moveY="+moveY);
+                if(moveX<leftX){moveX=leftX;}                                
+                if(moveX>rightX){moveX=rightX;}
+                if(moveY<topY){moveY=topY;}
+                if(moveY>bottomY){moveY=bottomY;}
+                $(this).css({
+                    "left":moveX+sX-startX,
+                    "top":moveY+sY-startY,                    
+                    })
+                },
+            
+        })
+        
+        })
+    
+
+</script>
+</html>

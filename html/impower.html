@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>授权页</title>
+    <link rel="stylesheet" href="./../css/impower.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <section class="nav_top">
+        <p class="clear">
+            <a href="./login.html">
+            取消
+        </a>
+        </p>
+        <p class="top_title"> 微信授权</p>
+    </section>
+    <img class="logo" src="./../images/impower/logo.png" alt="">
+    <div class="p1_box">
+        <p class="P1">型动</p>
+    </div>
+    <p class="p2">请确认以下授权信息</p>
+    <p class="p3">·获取你的信息（头像，信息等 ）</p>
+    <p class="btn">
+        <a href="./gender.html">
+            确认登录
+        </a>
+    </p>
+</body>
+
+<script src="./../js/zepto.min.js"></script>
+<script>
+    $(function() {
+        function setRem() {
+            var clientWidth = $(window).width();
+            var uiwidth = 750;
+            var nowRem = (clientWidth / uiwidth * 100);
+            $("html").css("font-size", parseInt(nowRem, 10) + "px");
+        };
+        setRem();
+
+        $(function() {
+            var timer;
+            $(window).on("resize", function() {
+                clearInterval(timer);
+                timer = setTimeout(function() {
+                    setRem();
+                }, 100)
+            })
+        })
+
+    })
+</script>
+
+</html>
