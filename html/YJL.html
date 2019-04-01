@@ -17,7 +17,7 @@
 <body>
     <div class="swiper-container swiper-container-horizontal">
         <header>
-            <img src="./../images/ycg/hui.png" alt="" class="index">
+            <img class="index" src="./../images/ycg/hui.png" alt="">
             <p class="t1">约教练</p>
             <img src="./../images/ycg/fangdajing.png" alt="">
         </header>
@@ -167,41 +167,42 @@
                     </ul>
                 </div>
             </div>
-            
-    </div>
-    <div class="swiper-pagination swiper-pagination-clickable" id="pagination">
-        <span class="swiper-pagination-bullet swiper-pagination-bullet-active">
-            <i>
-                减脂
-            </i>
-        </span>
-        <span class="swiper-pagination-bullet">
-            <i>
-                增肌
-            </i>
-        </span>
-        <span class="swiper-pagination-bullet">
-            <i>
-                耐力
-            </i>
-        </span>
-        <span class="swiper-pagination-bullet">
-            <i>
-                修身
-            </i>
-        </span>
-    </div>
-    <div class="btn">
-        <a href="./Coach detail.html"></a>
-    </div>
-    <script src="./../js/swiper3.min.js"></script>
-    <script src="./../js/YJL.js"></script>
-    <script src="../js/touch-0.2.14.min.js"></script>
-    <script>
-        $('.index').on('tap', function () {
-            window.location.href = './index.html';
-        });
-    </script>
+
+        </div>
+        <div class="swiper-pagination swiper-pagination-clickable" id="pagination">
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active">
+                <i>
+                    减脂
+                </i>
+            </span>
+            <span class="swiper-pagination-bullet">
+                <i>
+                    增肌
+                </i>
+            </span>
+            <span class="swiper-pagination-bullet">
+                <i>
+                    耐力
+                </i>
+            </span>
+            <span class="swiper-pagination-bullet">
+                <i>
+                    修身
+                </i>
+            </span>
+        </div>
+        <div class="btn">
+            <a href="./Coach detail.html"></a>
+        </div>
+        <script src="./../js/swiper3.min.js">
+        </script>
+        <script src="./../js/YJL.js">
+        </script>
+        <script>
+        $('.index').on('touchstart',function(){
+            window.location.href = './index.html'
+        })
+        </script>
 </body>
 
 </html>

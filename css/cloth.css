@@ -57,7 +57,7 @@ header>span:nth-child(3){
 }
 .liang{
     background: url("../images/quan/icondianliang.png")
-    no-repeat .3rem .25rem;
+    no-repeat .3rem .36rem;
     background-size:  35% 10%;
 }
 .nav li span{
@@ -76,7 +76,7 @@ header>span:nth-child(3){
     background-size: 10% 40%;
 }
 main{
-    margin-top: 1.04rem;
+    margin-top: 1.15rem;
 }
 main ul{
     display: flex;
@@ -132,7 +132,7 @@ main ul li{
     background: #334554;
     overflow: hidden;
     margin-left: .15rem;
-    margin-top: .1rem;
+    margin-top: .2rem;
 }
 
 footer ul{
@@ -203,7 +203,8 @@ footer ul li:nth-child(4) a{
     background-size: 50% 50%;
 }
 footer{
-    margin-bottom: .4rem;
+    /* margin-bottom: .4rem; */
+    margin-top: .05rem;
     /* border-bottom: .01rem solid #ccc; */
 }
 .car{

@@ -30,13 +30,13 @@ header>span:first-child {
     height: .6rem;
     float: left;
     margin-left: .1rem;
-    background: url("../images/dongyou/tx.png") no-repeat center;
+    background: url("../images/dongyou/san1.png") no-repeat center;
     background-size: 50% auto;
 }
 
 header>span:nth-child(2) {
     display: block;
-    color: #fff;
+    color: #f6f6f6;
     float: left;
     font-family: PF-Medium;
     font-size: .18rem;
@@ -51,7 +51,7 @@ header>a:nth-child(3) {
     height: .6rem;
     float: right;
     margin-right: .1rem;
-    background: url("../images/quan/add.png") no-repeat center;
+    background: url("../images/dongyou/jia1.png") no-repeat center;
     background-size: 50% auto;
 }
 
@@ -59,7 +59,7 @@ header>a:nth-child(3) {
     overflow: hidden;
 }
 input::-webkit-input-placeholder{
-    color:#fff;
+    color:#f6f6f6;
     font-size: .14rem;
     font-family: PF-Bold;
 }
@@ -109,12 +109,13 @@ main .main-list li img{
 main .main-list li .txt-left p:nth-child(2){
     color: #cccccc;
     font-size: .14rem;
+    font-family: PF-Medium;
     padding-top: .05rem;
 }
 main .main-list li .txt{
     width: 80%;
     display: flex;
-    color: #fff;
+    color: #f6f6f6;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -123,13 +124,18 @@ main .main-list li .txt .txt-right p:nth-child(2){
     background: url(./../images/dongyou/weidu.png) no-repeat right center;
     background-size: 30%;
 }
+.txt-right{
+    font-size: .11rem;
+    font-family: PF-Medium;
+    color: #cccccc;
+}
  .out{
     margin-right: -1rem;
     width: 1rem;
     height: .5rem;
     line-height: .5rem;
     padding-left: .45rem;
-    color:#fff;
+    color:#f6f6f6;
     font-size: .16rem;
     font-family: PF-Bold;
     background: #f76585;
@@ -172,7 +178,7 @@ footer ul li a {
 }
 
 footer ul li:nth-child(4) a {
-    color: #fff;
+    color: #f6f6f6;
 }
 
 footer ul li:nth-child(1) {

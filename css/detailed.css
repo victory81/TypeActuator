@@ -28,17 +28,17 @@ html,body{
     margin-top: .34rem;
 }
 
-.iconfan img {
-    width: 0.1rem;
-    height: 0.15rem;
+.iconfan>a>img {
+    width: 0.12rem;
+    height: 0.16rem;
     margin-top: .34rem;
     margin-left: .15rem;
 }
 
-.icongen img {
-    width: 0.06rem;
-    height: 0.2rem;
-    margin-top: .34rem;
+.icongen>a>img{
+    width: 0.2rem;
+    height: 0.25rem;
+    margin-top: .28rem;
     margin-right: .15rem;
 }
 
@@ -130,9 +130,9 @@ html,body{
 }
 
 .li_ull li p {
-    color: #cccccc;
+    color: #f6f6f6;
     margin-left: .02rem;
-    font-size: .12rem;
+    font-size: .14rem;
     font-family: PF-Medium;
 }
 
@@ -148,12 +148,16 @@ html,body{
 }
 
 .li_ull {
+    width: 100%;
     overflow: hidden;
     float: right;
-    margin-top: .29rem;
+    margin-top: .2rem;
+    margin-bottom: .1rem;
+    display: flex;
+    justify-content: space-around;
 }
 
-.li_ull li:nth-child(1) {
+/* .li_ull li:nth-child(1) {
     margin-right: .85rem;
 }
 
@@ -163,7 +167,7 @@ html,body{
 
 .li_ull li:nth-child(3) {
     margin-right: .5rem;
-}
+} */
 
 .div_img {
     margin-top: 1.2rem;
@@ -183,10 +187,11 @@ html,body{
 .wei span {
     color: #fff;
     font-family: PF-Medium;
+    margin-left: .1rem;
 }
 
 .sp_s {
-    font-size: .13rem;
+    font-size: .18rem;
     color: #fff;
     margin-top: .27rem;
     margin-left: .15rem;
@@ -347,7 +352,7 @@ html,body{
     font-size: .11rem;
     float: right;
     margin-right: .15rem;
-    color: #f6f6f6;
+    color: #9a9999;
 }
 
 .rig {
@@ -379,8 +384,8 @@ html,body{
 }
 
 .aix img {
-    width: 0.15rem;
-    height: 0.15rem;
+    width: 0.18rem;
+    height: 0.18rem;
     margin-top: .17rem;
     margin-left: .37rem;
 }
@@ -412,4 +417,7 @@ html,body{
 .re {
     color: #f66784;
     font-family: PF-Medium;
+}
+.xin2{
+    display: none;
 }

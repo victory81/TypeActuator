@@ -27,7 +27,7 @@ header span:first-child{
     height: .6rem;
     float: left;
     margin-left: .1rem;
-    background: url(../images/quan/iconsousuo.png) no-repeat center;
+    background: url(../images/icon/sousuo1.png) no-repeat center;
     background-size: 50% auto;
 }
 header>span:nth-child(2){
@@ -42,11 +42,11 @@ header>span:nth-child(2){
     transform: translateX(-50%);
 }
 header span:last-child{
-    width: .4rem;
+    width: .5rem;
     height: .6rem;
     float: right;
-    margin-right: .1rem;
-    background: url(../images/quan/iconfenxiang.png) no-repeat center;
+    /* margin-right: .1rem; */
+    background: url(../images/detailed/dian1.png) no-repeat center;
     background-size: 50% auto;
 }
 main{
@@ -70,7 +70,7 @@ main{
 .left_{
     background: url("../images/quan/icondianliang.png")
     no-repeat center .5rem;
-    background-size: 20%;
+    background-size: 20% 6%;
 }
 /* .right_{
     background: url("../images/quan/icondianliang.png")
@@ -246,6 +246,7 @@ main{
     color: #cccccc;
 }
 .frist p:nth-child(5) span{
+
     font-size: .12rem;
     font-family: PF-Medium;
     color: #00cccc;
@@ -255,23 +256,33 @@ main{
     margin-top: -.8rem;
     margin-right: .2rem;
 }
-.frist div:last-child span:first-child{
+.frist div:last-child span:first-child{ 
+    height: 0.2rem;
     font-size: .11rem;
     font-family: PF-Medium;
     padding-left: .3rem;
     color: #cccccc;
-    background: url("../images/quan/iconxiaoxi.png")
+    background: url("../images/detailed/xiaoxi1.png")
     no-repeat .01rem center;
-    background-size: 40%;
+    background-size: 33%;
 }
-.frist div:last-child span:last-child{
+.xin{
     font-size: .11rem;
     font-family: PF-Medium;
     padding-left: .3rem;
     color: #cccccc;
-    background: url("../images/quan/iconxin.png")
+    background: url("../images/detailed/xin1.png")
     no-repeat .01rem center;
-    background-size: 40%;
+    background-size: 33%;
+}
+.xin2{
+    font-size: .11rem;
+    font-family: PF-Medium;
+    padding-left: .3rem;
+    color: #cccccc;
+    background: url("../images/icon/xin2.png")
+    no-repeat .01rem center;
+    background-size: 33%;
 }
 footer>ul {
     width: 100%;

@@ -67,13 +67,13 @@ $(function () {
     option = {
         // color: ["#0080ff", "#4cd5ce"],
         tooltip: {
-            trigger: "axis",
-            axisPointer: {
-                type: "cross",
-                label: {
-                    backgroundColor: "rgb(39,63,74)"
-                }
-            }
+            trigger: "axis"
+            // axisPointer: {
+            //     type: "cross",
+            //     label: {
+            //         backgroundColor: "rgb(39,63,74)"
+            //     }
+            // }
         },
         textStyle: {
             fontSize: 15,
@@ -111,8 +111,7 @@ $(function () {
             }
         },
         series: [{
-            // data: [120, 400, 1000, 459, 1200, 999, 1600],
-            data: [ 1600], 
+            data: [120, 400, 1000, 459, 1200, 999, 1600],
             type: "line",
             smooth: true,
             itemStyle: {
@@ -161,7 +160,7 @@ $(function () {
             },
             label: {
                 normal: {
-                    show: true,
+                    show: false,
                     position: "top"
                 }
             }

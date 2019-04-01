@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>你想要什么?</title>
     <link rel="stylesheet" href="../css/public.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/want.css">
+    <!-- <script src="../js/jquery-3.3.1.min.js"></script> -->
     <script src="../js/zepto.min.js"></script>
     <script src="../js/zepto.touch.js"></script>
+    <script src="../js/touch-0.2.14.min.js"></script>
     <script src="../js/fx.js"></script>
     <script src="../js/remstyle.js"></script>
 </head>
@@ -61,34 +64,62 @@
                 <li>天鹅臂</li>
             </ul>
         </div>
-        
+
     </div>
     <div class="btn">
-        <a href="./index.html"></a> 
+        <a href="./index.html"></a>
     </div>
 </body>
+<!-- <script src="../js/jQ-scroll.js"></script> -->
 <script>
-    $('.u1 li').on('tap',function(){
+    $('.u1 li').on('tap', function () {
         $(this).toggleClass('color1');
     })
-    $('.u2 li').on('tap',function(){
+    $('.u2 li').on('tap', function () {
         $(this).toggleClass('color2');
     })
-    $('.u3 li').on('tap',function(){
+    $('.u3 li').on('tap', function () {
         $(this).toggleClass('color3');
     })
-    $('.u4 li').on('tap',function(){
+    $('.u4 li').on('tap', function () {
         $(this).toggleClass('color4');
     })
-    $('.u5 li').on('tap',function(){
+    $('.u5 li').on('tap', function () {
         $(this).toggleClass('color5');
     })
+
+        // $(function () {
+        //     $('#box').scrollp({
+        //         'time': 1500,
+        //         'num': 3,
+        //         'parent': '.list',
+        //         'list': '#list li'
+        //     });
+        // });
+
+        var $width = $(".list").width();
+        console.log($width)
+        var w = 0.5;
+        $('.list').on('swipeLeft', function (e) {
+            e = e || window.event
+            w+=1
+            $(this).animate({
+               translate3d: -w+"rem"+',0,0'
+            },500);
+            
+        })
+        $('.list').on('swipeRight', function (e) {
+            e = e || window.event
+            w+=1
+            $(this).animate({
+               translate3d: w+"rem"+',0,0'
+            },500)
+        })
+        
+
+
+
+   
 </script>
-<script>
-  var $width = $(".list").width();
-    console.log($width)
-    function handle Touch(e){
-        var
-    }
-</script>
+
 </html>

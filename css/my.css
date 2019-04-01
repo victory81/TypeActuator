@@ -19,17 +19,17 @@ body{
     justify-content: space-between;
 }
 .top>a:nth-child(1){
-    width: 0.23rem;
-    height: 0.23rem;
-    background: url('../images/my/iconshezhi.png')no-repeat center center;
-    background-size: .23rem .21rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: url('../images/icon/shezhi1.png') center center;
+    background-size: .2rem .18rem;
     margin: .2rem .15rem;
 }
 .top>a:nth-child(2){
-    width: .23rem;
-    height: 0.23rem;
-    background: url('../images/my/iconfenxiang.png')no-repeat center center;
-    background-size: .21rem .21rem;
+    width: .2rem;
+    height: 0.2rem;
+    background: url('../images/detailed/fenxiang1.png')no-repeat center center;
+    background-size: .18rem .18rem;
     margin: .2rem .15rem;
 }
 

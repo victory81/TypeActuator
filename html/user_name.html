@@ -33,18 +33,19 @@
             <div class="num_box">
             </div>
         </div>
-        <a href="./HW.html">
+        <!-- <a href="./HW.html"> -->
             <div class="btn_box">
-                <img src="../images/use_name/btn.png" alt="">
+                <img class="btn_" src="../images/use_name/btn.png" alt="">
             </div>
-        </a>
+        <!-- </a> -->
 
 
     </div>
 
-    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/zepto.min.js"></script>
     <script src="../js/remstyle.js"></script>
     <script src="../js/ageslide.js"></script>
+    <script src="../js/touch-0.2.14.min.js"></script>
 
     <script>
         var names = ['哎呦喂', '风火轮', '莫扎特', '特仑苏', '安慕希', '贾克斯', '金克丝', ' 薇  恩'];
@@ -53,6 +54,14 @@
             $('.user_input').val(names[Math.floor(Math.random() * names.length)]);
             
         })
+        $('.btn_').on('touchstart',function(){
+            window.location.href = './HW.html';
+        })
+
+        $('body').on('swiperight',function(){
+        console.log(1);
+        window.location.href = './gender.html';
+    })
 
     </script>
 </body>

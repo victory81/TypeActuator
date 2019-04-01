@@ -9,10 +9,16 @@ html,body{
     height: 100%;
     background-color: rgb(38,48,58);
 }
-.banner img{
+.banner{
+    width: 100%;
+    height: 2.4rem;
+    position: relative;
+    margin-bottom: .1rem;
+}
+/* .banner img{
     width: 100%;
     height: 2.3rem;
-}
+} */
 .con{
     width: 100%;
     height: 2.76rem;
@@ -47,8 +53,8 @@ html,body{
 }
 .con .main .info{
     color: #fff;
-    font-size: .18rem;
-    font-family: number;
+    font-size: .16rem;
+    font-family: PF-Medium;
 }
 .con .main .info span{
     margin-right: 0.04rem;
@@ -60,6 +66,7 @@ html,body{
 .list li{
     height: .4rem;
     line-height: 0.4rem;  
+    line-height: .4rem;
 }
 
 .list li:nth-child(2n+1){
@@ -73,16 +80,16 @@ html,body{
     font-family: number;
 }
 .list li:nth-child(1){
-    background: url(./../images/women/iconlihe.png) no-repeat 1px 1px;
-    background-size: 8%;
+    background: url(./../images/women/iconlihe.png) no-repeat .03rem .05rem;
+    background-size: 7%;
 }
 .list li:nth-child(3){
-    background: url(./../images/women/icondunpai.png) no-repeat 1px 1px;
-    background-size: 8%;
+    background: url(./../images/women/icondunpai.png) no-repeat .03rem .05rem;
+    background-size: 7%;
 }
 .list li:nth-child(5){
-    background: url(./../images/women/iconwendang.png) no-repeat 1px 1px;
-    background-size: 8%;
+    background: url(./../images/women/iconwendang.png) no-repeat .03rem .05rem;
+    background-size: 7%;
 }
 .list li:nth-child(4) span{
     margin-right: 0.04rem;
@@ -94,7 +101,7 @@ html,body{
     float: right;
     padding-right: .3rem;
     background: url(./../images/women/iconfanhui1.png) no-repeat right center;
-    background-size: 5%
+    background-size: 4%
 }
 .con .goods{
     width: 92.8%;
@@ -107,7 +114,7 @@ html,body{
     font-size: .15rem;
     font-family: PF-Bold;
     background: url(./../images/women/iconfanhui1.png) no-repeat right center;
-    background-size: 3%;
+    background-size: .07rem .14rem;
 }
 .con .goods .all{
     margin-top: 0.15rem;
@@ -182,3 +189,41 @@ html,body{
 }
 
 
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: .05rem 0; */
+    position: absolute;
+    top: .1rem;
+    left: 0;
+    z-index: 22;
+}
+.header>img:nth-child(1){
+    width: .1rem;
+    height: .16rem;
+    margin-left: .15rem;
+}
+.header>img:nth-child(2){
+    width: .16rem;
+    height: .16rem;
+    margin-right: .15rem;
+}
+.fon{
+    font-family:PF-Regular;
+    color: #f6f6f6;
+    font-size: .2rem;
+}
+.banner_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.xin2{
+    display: none;
+}

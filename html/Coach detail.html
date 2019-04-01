@@ -13,9 +13,9 @@
 <body>
         <div class="box">
                 <div class="boy">
-                        <span class="iconfan"><a href="./YJL.html"><img src="../images/Mobile/iconfanhui.png" alt="" ></a></span>
-                        <span class="con">教练详细</span>
-                        <span class="icongen"><a href=""><img src="../images/Mobile/icongengduo.png" alt="" ></a></span>
+                        <span class="iconfan"><a href="./YJL.html"><img src="../images/detailed/return1.png" alt="" ></a></span>
+                        <!-- <span class="con">教练详细</span> -->
+                        <span class="icongen"><a href=""><img src="../images/detailed/dian1.png" alt="" ></a></span>
                     <ul class="li_ul">
                         <li><a href="">Arivl</a></li>
                         <li class="shoe">
@@ -30,19 +30,19 @@
                         <li>
                             <a href="">
                                 <p>21990</p>
-                                <img src="../images/detailed/haoping.png" alt="">
+                                <img src="../images/icon/xx1.png" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <p>28768</p>
-                                <img src="../images/detailed/xin.png" alt="">
+                                <img src="../images/detailed/xin1.png" alt="">
                             </a>
                         </li>
                         <li>
                            <a href="">
                                <p>76582</p>
-                               <img src="../images/detailed/xin.png" alt="">
+                               <img src="../images/detailed/fenxiang1.png" alt="">
                            </a>
                         </li>
                     </ul>
@@ -88,7 +88,7 @@
                     </a>
                     <div class="t_ul">
                      <ul>
-                         <li><img src="../images/detailed/touxiang5.png" alt=""></li>
+                         <li><img src="../images/detailed/tu1x.png" alt=""></li>
                          <li id="li_x">2019年3月29日</li>
                          <li class="rig">等等**啊<p class="bot">教练人很好,很耐心,场馆环境还不错</p></li>
                         
@@ -97,7 +97,11 @@
                     <div class="foot">
                         <p><img src="../images/detailed/xian.png" alt=""></p>
                         <ul>
-                            <li class="aix"><a href=""><img src="../images/detailed/xin.png" alt=""></a></li>
+                            <li class="aix">
+                                <a>
+                                        <img class="xin1" src="../images/detailed/xin1.png" alt="">
+                                        <img class="xin2" src="../images/icon/xin2.png" alt="">
+                                </a></li>
                             <li><span class="lis">合计:</span> <span class="re">777</span></li>
                             <li><a href="" class="lis">立即预约</a></li>
                         </ul>
@@ -105,4 +109,14 @@
             </div>
     </div>
 </body>
+<script>
+        $('.xin1').on('touchstart',function(){
+            $(this).hide();
+            $('.xin2').show();
+        })
+        $('.xin2').on('touchstart',function(){
+            $(this).hide();
+            $('.xin1').show();
+        })
+        </script>
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>启动</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/QDY.css">
+</head>
+
+<body>
+    <div class="box">
+        <img class="black-x" src="../images/QDY/black-x.png" alt="">
+        <img class="red-x" src="../images/QDY/red-x.png" alt="">
+        <img class="blue-x" src="../images/QDY/blue-x.png" alt="">
+        <img class="tiao" src="../images/QDY/tiao.png" alt="">
+    </div>
+    <div class="text">
+        <p>心动型动，动出自我</p>
+    </div>
+
+
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/remstyle.js"></script>
+    <script>
+        var animationImg = $(".tiao");
+        var timer;
+        // function load(){
+        $('body').on('touchstart',function(){
+            // console.log(1)
+            animationImg.addClass("animation1");
+            $('.blue-x').addClass('blue');
+            $('.red-x').addClass('red');
+        animationImg.on("webkitAnimationEnd", function () {
+            animationImg.removeClass("animation1");
+            animationImg.addClass("animation2");
+        });
+        
+        timer = setTimeout(function(){
+            window.location.href = './QiDY.html'
+        },4000)
+        // }
+
+  })
+
+    </script>
+</body>
+
+</html>

@@ -8,7 +8,7 @@ html,body {
 	width: 100%;
 	height: 100%;
 	background-color: #27414e;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 header {
@@ -121,7 +121,8 @@ header img:nth-child(3) {
 	position:absolute;
 	top: 1rem;
 	margin-left: .3rem;
-	width:100%
+	width:100%;
+	box-sizing: border-box;
 }
 #pagination .swiper-pagination-bullet {
 	width:9.5%;

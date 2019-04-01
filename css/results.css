@@ -27,11 +27,11 @@ header {
     text-indent: .5rem;
 }
 header img{
-    width: 0.18rem;
-    height: .18rem;
+    width: 0.16rem;
+    height: .16rem;
     float: right;
-    margin-right: 0.3rem;
-    margin-top: 0.1rem;
+    margin-right: 0.15rem;
+    margin-top: 0.15rem;
 }
 .total {
     width: 100%;

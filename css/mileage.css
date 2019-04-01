@@ -20,7 +20,7 @@ body{
 #header>a:nth-child(1) {
     width: 0.25rem;
     height: 80%;
-    background: url('../images/yuedongyou/return.png') no-repeat center center;
+    background: url('../images/detailed/return1.png') no-repeat center center;
     background-size: .07rem .13rem;
     margin-left: .1rem;
 }

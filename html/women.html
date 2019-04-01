@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +11,16 @@
     <script src="./../js/zepto.min.js"></script>
     <script src="./../js/remstyle.js"></script>
 </head>
+
 <body>
+    
     <div class="banner">
-        <img src="./../images/women/tipian2.png" alt="">
+        <div class="header">
+            <img class="return" src="../images/detailed/return1.png" alt="">
+            <!-- <p class="fon">型动产品</p> -->
+            <img src="../images/icon/sousuo1.png" alt="">
+        </div>
+        <img class="banner_img" src="./../images/women/tipian2.png" alt="">
     </div>
     <div class="con">
         <div class="main">
@@ -22,12 +30,12 @@
             </p>
             <p class="info">
                 <span>女款</span>
-                <span>彪马</span>
+                <span>Adidas</span>
                 <span>|</span>
                 <span>女士</span>
                 <span>CALI</span>
                 <span>FASHION</span>
-                <span>运动鞋</span>           
+                <span>运动服</span>
             </p>
             <ul class="list">
                 <li>活动 </li>
@@ -68,7 +76,8 @@
     <div class="btn">
         <div class="b-left">
             <img src="./../images/women/iconkefu.png" alt="">
-            <img src="./../images/women/iconxin.png" alt="">
+            <img class=" xin xin1" src="./../images/detailed/xin1.png" alt="">
+            <img class="xin xin2" src="./../images/icon/xin2.png" alt="">
         </div>
         <div class="b-right">
             加入购物车
@@ -78,10 +87,26 @@
     <!-- <script src="../js/zepto.min.js"></script> -->
     <script src="../js/touch-0.2.14.min.js"></script>
     <script>
-    $('body').on('swipeleft',function(){
-        // console.log(1);
-        window.location.href = './classify.html';
+        $('body').on('swipeleft', function () {
+            // console.log(1);
+            window.location.href = './classify.html';
+        })
+        $('.return').on('touchstart', function () {
+            // console.log(1);
+            window.location.href = './classify.html';
+        })
+    </script>
+
+    <script>
+    $('.xin1').on('touchstart',function(){
+        $(this).toggle();
+        $('.xin2').show();
+    })
+    $('.xin2').on('touchstart',function(){
+        $(this).toggle();
+        $('.xin1').show();
     })
     </script>
 </body>
+
 </html>

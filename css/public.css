@@ -1,53 +1,52 @@
 a{
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
-
+     -webkit-tap-highlight-color: transparent;
 }
 @font-face{
     font-family:PF-Bold;
-    src: url('../font/PingFangBold.ttf?#font-spider');
+    src: url('../font/PingFangBold.ttf?#font-spider?#font-spider?#font-spider');
 }
 @font-face{
     font-family:PF-ExtraLight;
-    src: url('../font/PingFangExtraLight.ttf?#font-spider');
+    src: url('../font/PingFangExtraLight.ttf?#font-spider?#font-spider?#font-spider');
 }
 @font-face{
     font-family:PF-Heavy;
-    src: url('../font/PingFangHeavy.ttf?#font-spider');
+    src: url('../font/PingFangHeavy.ttf?#font-spider?#font-spider?#font-spider');
 }
 @font-face{
     font-family:PF-Light;
-    src: url('../font/PingFangLight.ttf?#font-spider');
+    src: url('../font/PingFangLight.ttf?#font-spider?#font-spider?#font-spider');
 }
 @font-face{
     font-family:PF-Medium;
-    src: url('../font/PingFangMedium.ttf?#font-spider');
+    src: url('../font/PingFangMedium.ttf?#font-spider?#font-spider?#font-spider');
 }
 @font-face{
     font-family:PF-Regular;
-    src: url('../font/PingFangRegular.ttf?#font-spider');
+    src: url('../font/PingFangRegular.ttf?#font-spider?#font-spider?#font-spider');
 }
 
 
 
 @font-face{
     font-family: SSFD-Bold;
-    src: url('../font/SystemSanFranciscoDisplayBold.ttf?#font-spider');
+    src: url('../font/SystemSanFranciscoDisplayBold.ttf?#font-spider?#font-spider');
 }
 @font-face{
     font-family: SSFD-Medium;
-    src: url('../font/SystemSanFranciscoDisplayMedium.ttf?#font-spider');
+    src: url('../font/SystemSanFranciscoDisplayMedium.ttf?#font-spider?#font-spider');
 }
 @font-face{
     font-family: SSFD-Regular;
-    src: url('../font/SystemSanFranciscoDisplayRegular.ttf?#font-spider');
+    src: url('../font/SystemSanFranciscoDisplayRegular.ttf?#font-spider?#font-spider');
 }
 @font-face{
     font-family: SSFD-Thin;
-    src: url('../font/SystemSanFranciscoDisplayThin.ttf?#font-spider');
+    src: url('../font/SystemSanFranciscoDisplayThin.ttf?#font-spider?#font-spider');
 }
 @font-face{
     font-family: SSFD-Ultralight;
-    src: url('../font/SystemSanFranciscoDisplayUltralight.ttf?#font-spider');
+    src: url('../font/SystemSanFranciscoDisplayUltralight.ttf?#font-spider?#font-spider');
 }
 
 
@@ -77,8 +76,9 @@ a{
 
 @font-face{
     font-family: number;
-    src: url('../font/bahnschrift.ttf?#font-spider');
+    src: url('../font/bahnschrift.ttf?#font-spid');
 }
+
 
 
 

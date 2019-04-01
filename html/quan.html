@@ -47,7 +47,7 @@
                     <p>今天也是元气满满的一天呢!! <span>#春季开练#&nbsp;#我的训练我做主#</span> </p>
                     <div>
                         <span>457</span>
-                        <span>457</span>
+                        <span class="s xin">457</span>
                     </div>
                 </li>
 
@@ -69,7 +69,7 @@
                     <p>今天也是元气满满的一天呢!! <span>#春季开练#&nbsp;#我的训练我做主#</span> </p>
                     <div>
                         <span>457</span>
-                        <span>457</span>
+                        <span class="s xin">457</span>
                     </div>
                 </li>
                 <li style="margin-bottom:.5rem">
@@ -90,7 +90,7 @@
                     <p>今天也是元气满满的一天呢!! <span>#春季开练#&nbsp;#我的训练我做主#</span> </p>
                     <div>
                         <span>457</span>
-                        <span>457</span>
+                        <span class="s xin">457</span>
                     </div>
                 </li>
             </ul>
@@ -118,14 +118,19 @@
     })
 
     $(".guanzu").on('tap', function () {
+        $(this).empty();
         $(this).toggleClass('focus');
         $(this).text('已关注');
         $(".focus").on('tap', function () {
+            $(this).empty();
             $(this).addClass('guanzu');
-            $(this).toggleClass().text('关注');
+            $(this).text('关注');
         })
     })
-
+    $(".s").on("touchstart",function(){
+        $(this).toggleClass("xin");
+        $(this).toggleClass("xin2")
+    })
 </script>
 
 </html>
